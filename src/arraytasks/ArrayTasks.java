@@ -15,6 +15,9 @@ public class ArrayTasks {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        //Task 1
+        
         String[] grades = new String[]{
             "A","B","D","F"
         };
@@ -28,6 +31,22 @@ public class ArrayTasks {
         };
         
         for ( String each : grades2 ){
+            System.out.println(each);
+        }
+        
+        //Task 2
+        
+        String[] subjects = new String[]{
+            "Math","English","Science"
+        };
+        
+        System.out.println(subjects[1]);
+        
+        String[] subjects2 = new String[]{
+            subjects[0],subjects[1],subjects[2],"History","P.E."
+        };
+        
+        for ( String each : subjects2 ){
             System.out.println(each);
         }
         
