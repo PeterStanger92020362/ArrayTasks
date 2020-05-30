@@ -15,7 +15,22 @@ public class ArrayTasks {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String[] grades = new String[]{
+            "A","B","D","F"
+        };
+        
+        for ( String each : grades ){
+            System.out.println(each);
+        };
+        
+        String[] grades2 = new String[]{
+            grades[0],grades[1],"C",grades[2],grades[3]
+        };
+        
+        for ( String each : grades2 ){
+            System.out.println(each);
+        }
+        
     }
     
 }
